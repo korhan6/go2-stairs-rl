@@ -1,0 +1,9 @@
+# jax[cuda12] se instala aparte (ver install.sh / README)
+playground>=0.2.0
+mujoco>=3.6.0
+mujoco-mjx>=3.6.0
+brax>=0.14.2
+mediapy
+numpy
+# Solo para el robot real (deploy_go2.py), instalar desde su repo:
+#   git clone https://github.com/unitreerobotics/unitree_sdk2_python && pip install -e unitree_sdk2_python
